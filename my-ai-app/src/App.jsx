@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 // --- Configuration ---
 // CRITICAL: YOUR API KEY WAS EXPOSED.
 // PLEASE REVOKE IT AND PASTE YOUR NEW KEY HERE.
-const API_KEY = "Your-Gemini-API"; 
+const API_KEY = "AIzaSyDOZoD8oRvR6lalSVHe1hJF1lUapQYrOcA"; 
 const CLOUD_MODEL = 'gemini-2.5-flash-preview-05-20';
 const CLOUD_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${CLOUD_MODEL}:generateContent?key=${API_KEY}`;
 
